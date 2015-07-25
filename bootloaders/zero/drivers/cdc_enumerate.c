@@ -50,14 +50,14 @@ const char devDescriptor[] = {
 	0x00,   // bDeviceSubclass: CDC class sub code
 	0x00,   // bDeviceProtocol: CDC Device protocol
 	0x40,   // bMaxPacketSize0
-	0x41,   // idVendorL
-	0x23,   //
-	0x4D,   // idProductL
-	0x00,   //
+	0xD0,   // idVendorL
+	0x16,   //
+	0x67,   // idProductL
+	0x0A,   //
 	0x10,   // bcdDeviceL
 	0x01,   //
-	0x00,   // iManufacturer    // 0x01
-	0x00,   // iProduct
+	0x01,   // iManufacturer    // 0x01
+	0x02,   // iProduct
 	0x00,   // SerialNumber
 	0x01    // bNumConfigs
 };
